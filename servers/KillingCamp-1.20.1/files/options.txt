@@ -1,5 +1,7 @@
 version:3465
 realmsNotifications:false
+resourcePacks:["vanilla","fabric","file/DevBackpack.zip","file/pack.zip","file/resource pack.zip"]
+incompatibleResourcePacks:["file/DevBackpack.zip","file/pack.zip","file/resource pack.zip"]
 lang:ko_kr
 narrator:0
 tutorialStep:none
