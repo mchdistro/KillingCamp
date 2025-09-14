@@ -1,0 +1,255 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "KillingCamp-1.20.1",
+      "name": "킬링캠프 2",
+      "description": "Minecraft 1.20.1 (Fabric v0.17.2)",
+      "icon": "https://github.com/mchdistro/KillingCamp/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "kc2.kro.kr",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.17.2",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1915305,
+            "MD5": "72dd698d701202d46303fc913cfcbf23",
+            "url": "https://github.com/mchdistro/KillingCamp/raw/main/repo/lib/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.17.2",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "ca7676da403f513e08f31e6192bb91f1",
+                "url": "https://github.com/mchdistro/KillingCamp/raw/main/repo/versions/1.20.1-fabric-0.17.2/1.20.1-fabric-0.17.2.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://github.com/mchdistro/KillingCamp/raw/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://github.com/mchdistro/KillingCamp/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://github.com/mchdistro/KillingCamp/raw/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://github.com/mchdistro/KillingCamp/raw/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://github.com/mchdistro/KillingCamp/raw/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504156,
+                "MD5": "aa4a43d5b0e9abf4fcb57520ffeb0019",
+                "url": "https://github.com/mchdistro/KillingCamp/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://github.com/mchdistro/KillingCamp/raw/main/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.6+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107873,
+            "url": "https://github.com/mchdistro/KillingCamp/raw/main/servers/KillingCamp-1.20.1/fabricmods/required/fabric-api-0.92.6+1.20.1.jar",
+            "MD5": "3483560775f416a4c759535b898165a5"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.6+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2726899,
+            "url": "https://github.com/mchdistro/KillingCamp/raw/main/servers/KillingCamp-1.20.1/fabricmods/required/iris-1.7.6+mc1.20.1.jar",
+            "MD5": "45577adb5ab16505572c6ea4b1006e58"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.3@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7209178,
+            "url": "https://github.com/mchdistro/KillingCamp/raw/main/servers/KillingCamp-1.20.1/fabricmods/required/journeymap-1.20.1-5.10.3-fabric.jar",
+            "MD5": "0daacf8f13dd33450a970601cf21d627"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.10.1+1.20.1@jar",
+          "name": "Presence Footsteps",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5664952,
+            "url": "https://github.com/mchdistro/KillingCamp/raw/main/servers/KillingCamp-1.20.1/fabricmods/required/PresenceFootsteps-1.10.1+1.20.1.jar",
+            "MD5": "4d9d64890b7b90641ce6be7d0c9cd3c6"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.13+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 971552,
+            "url": "https://github.com/mchdistro/KillingCamp/raw/main/servers/KillingCamp-1.20.1/fabricmods/required/sodium-fabric-0.5.13+mc1.20.1.jar",
+            "MD5": "76e0349865f91f315aae087a6e88a84a"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.4.15@jar",
+          "name": "Sound Physics Remastered",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 203126,
+            "url": "https://github.com/mchdistro/KillingCamp/raw/main/servers/KillingCamp-1.20.1/fabricmods/required/sound-physics-remastered-fabric-1.20.1-1.4.15.jar",
+            "MD5": "fc959b9db4107f910802fb8732df3032"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.36@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7981586,
+            "url": "https://github.com/mchdistro/KillingCamp/raw/main/servers/KillingCamp-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.5.36.jar",
+            "MD5": "679d26693b2f5839aec214b0ad2e0ad8"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 285,
+            "url": "https://github.com/mchdistro/KillingCamp/raw/main/servers/KillingCamp-1.20.1/files/config/iris.properties",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 172,
+            "url": "https://github.com/mchdistro/KillingCamp/raw/main/servers/KillingCamp-1.20.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "DevBackpack.zip",
+          "name": "DevBackpack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 94019,
+            "url": "https://github.com/mchdistro/KillingCamp/raw/main/servers/KillingCamp-1.20.1/files/resourcepacks/DevBackpack.zip",
+            "MD5": "35531d1106adc14d76f7433265005470",
+            "path": "resourcepacks/DevBackpack.zip"
+          }
+        },
+        {
+          "id": "pack.zip",
+          "name": "pack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2672122,
+            "url": "https://github.com/mchdistro/KillingCamp/raw/main/servers/KillingCamp-1.20.1/files/resourcepacks/pack.zip",
+            "MD5": "799b61a4313d13b609b5cc5962cf0bed",
+            "path": "resourcepacks/pack.zip"
+          }
+        },
+        {
+          "id": "resource pack.zip",
+          "name": "resource pack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1763413,
+            "url": "https://github.com/mchdistro/KillingCamp/raw/main/servers/KillingCamp-1.20.1/files/resourcepacks/resource%20pack.zip",
+            "MD5": "12b8e944fd9e4b8a5c58d3267e86749c",
+            "path": "resourcepacks/resource pack.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.1.1.zip",
+          "name": "ComplementaryUnbound_r5.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 409957,
+            "url": "https://github.com/mchdistro/KillingCamp/raw/main/servers/KillingCamp-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.1.1.zip",
+            "MD5": "da7fc4c86b12e65f4f70b3a9aaabae90",
+            "path": "shaderpacks/ComplementaryUnbound_r5.1.1.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
